@@ -1,0 +1,16 @@
+diff -uNr pysnmp-apps-0.0.2-org/setup.py pysnmp-apps-0.0.2/setup.py
+--- pysnmp-apps-0.0.2-org/setup.py	2004-02-12 10:49:26.000000000 +0100
++++ pysnmp-apps-0.0.2/setup.py	2004-05-02 20:05:53.191661128 +0200
+@@ -14,8 +14,9 @@
+                    'pysnmpap.cli.ucd.proto',                   
+                    'pysnmpap.cli.ucd.carrier',
+                    'pysnmpap.cli.ucd.carrier.udp' ],
+-      data_files = [ ('/usr/local/bin', ['apps/pysnmpwalk']),
+-                     ('/usr/local/bin', ['apps/pysnmpbulkwalk']),
+-                     ('/usr/local/bin', ['apps/pysnmptrapd']), ],
++      data_files = [ ('/usr/bin', ['apps/pysnmpwalk']),
++                     ('/usr/bin', ['apps/pysnmpget']),
++                     ('/usr/bin', ['apps/pysnmptrap']),
++                     ('/usr/bin', ['apps/pysnmptrapd']), ],
+       license="BSD"
+       )
