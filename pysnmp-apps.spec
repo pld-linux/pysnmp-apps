@@ -10,7 +10,6 @@ Source0:	http://dl.sourceforge.net/pysnmp/%{name}-%{version}.tar.gz
 # Source0-md5:	93b84380e3977aaacafc7a1e1cecccbd
 URL:		http://pysnmp.sourceforge.net/
 Patch0:		%{name}-setup.patch
-BuildRequires:	rpm-pythonprov
 BuildRequires:	python >= 2.2.1
 %pyrequires_eq	python-modules
 Requires:	python-pysnmp >= 3.4.0
