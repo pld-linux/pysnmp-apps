@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 
 Summary:	SNMP applications in Python
 Summary(pl):	Aplikacje SNMP napisane w Pythonie
