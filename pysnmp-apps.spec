@@ -1,6 +1,6 @@
 
 Summary:	SNMP applications in Python
-Summary(pl):	Aplikacje SNMP napisane w Pythonie
+Summary(pl.UTF-8):   Aplikacje SNMP napisane w Pythonie
 Name:		pysnmp-apps
 Version:	0.0.2
 Release:	1
@@ -25,13 +25,13 @@ applications.
 pysnmp-apps is written entirely in Python and only relies upon the
 PySNMP package to run.
 
-%description -l pl
-pysnmp-apps to zestaw narzêdzi SNMP wykorzystuj±cych bibliotekê
-PySNMP. Niektóre z nich na¶laduj± dzia³anie odpowiedników ze s³ynnego
-pakietu Net-SNMP, podczas gdy inne s± zaprojektowane w celu ³atwej
+%description -l pl.UTF-8
+pysnmp-apps to zestaw narzÄ™dzi SNMP wykorzystujÄ…cych bibliotekÄ™
+PySNMP. NiektÃ³re z nich naÅ›ladujÄ… dziaÅ‚anie odpowiednikÃ³w ze sÅ‚ynnego
+pakietu Net-SNMP, podczas gdy inne sÄ… zaprojektowane w celu Å‚atwej
 integracji z innymi aplikacjami Pythona.
 
-pysnmp-apps jest napisany w ca³o¶ci w Pythonie i zale¿y tylko od
+pysnmp-apps jest napisany w caÅ‚oÅ›ci w Pythonie i zaleÅ¼y tylko od
 pakietu PySNMP.
 
 %prep
