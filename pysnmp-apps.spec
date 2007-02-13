@@ -1,6 +1,6 @@
 
 Summary:	SNMP applications in Python
-Summary(pl.UTF-8):   Aplikacje SNMP napisane w Pythonie
+Summary(pl.UTF-8):	Aplikacje SNMP napisane w Pythonie
 Name:		pysnmp-apps
 Version:	0.0.2
 Release:	1
